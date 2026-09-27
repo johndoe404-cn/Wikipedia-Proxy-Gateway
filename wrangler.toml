@@ -1,0 +1,4 @@
+name = "wiki-proxy-gateway"   # 这个名字必须和你在 Cloudflare Dashboard 里的 Worker 名称一致
+main = "worker.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
