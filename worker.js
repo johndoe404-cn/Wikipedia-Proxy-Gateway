@@ -14,7 +14,7 @@
  * 请结合 Cloudflare 仪表盘的 DNS/Routes/Edge Certificates 配置使用（CNAME -> workers.dev，橙云开启）。
  */
 
-const PROXY_HOST = '替换为自己的域名';
+const PROXY_HOST = 'wikipedia.johndoe404.website';
 const DEFAULT_ORIGIN = 'zh.wikipedia.org';
 const PROXY_PREFIX = '/__proxy__/';
 
